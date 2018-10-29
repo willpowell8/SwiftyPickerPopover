@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
   s.author             = { "Yuta Hoshino" => "ythshn@gmail.com" }
   s.platform     = :ios, "9.0"
   # s.ios.deployment_target = "9.0"
-
+s.swift_version = '4.2'
   s.source       = { :git => "https://github.com/willpowell8/SwiftyPickerPopover.git", :tag => s.version }
   s.source_files  = "SwiftyPickerPopover/*.swift"
   s.resources = ["SwiftyPickerPopover/**/*.{storyboard,strings}","SwiftyPickerPopover/*.{storyboard,strings}"]
-
+	
   s.requires_arc = true
 
 end
